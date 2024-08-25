@@ -1,6 +1,10 @@
 namespace BuberBreakfast.Services.Breakfasts;
 using BuberBreakfast.Models;
+using BuberBreakfast.Services.Errors;
+using ErrorOr;
 
+
+//administra la bbdd
 public class BreakfastService: IBreakfastService{
 
     private static readonly Dictionary <Guid, Breakfast> _breakfasts=new();
@@ -10,9 +14,12 @@ public class BreakfastService: IBreakfastService{
         _breakfasts.Add(breakfast.Id, breakfast);
     }
 
-    public Breakfast GetBreakfast(Guid id){
+    public ErrorOr<Breakfast> GetBreakfast(Guid id){
+        if(_breakfasts.TryGetValue(id, out var breakfast)){
 
-        return _breakfasts[id];
+            return breakfast;
+        }
+        return Errors.Breakfast.NotFound;
     }
 
     public void UpsertBreakfast(Breakfast breakfast){

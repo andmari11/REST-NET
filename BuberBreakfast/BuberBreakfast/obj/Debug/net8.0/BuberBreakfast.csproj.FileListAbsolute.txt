@@ -28,3 +28,4 @@
 /home/andres/REST.NET/BuberBreakfast/BuberBreakfast/obj/Debug/net8.0/BuberBreakfast.pdb
 /home/andres/REST.NET/BuberBreakfast/BuberBreakfast/obj/Debug/net8.0/BuberBreakfast.genruntimeconfig.cache
 /home/andres/REST.NET/BuberBreakfast/BuberBreakfast/obj/Debug/net8.0/ref/BuberBreakfast.dll
+/home/andres/REST.NET/BuberBreakfast/BuberBreakfast/bin/Debug/net8.0/ErrorOr.dll
