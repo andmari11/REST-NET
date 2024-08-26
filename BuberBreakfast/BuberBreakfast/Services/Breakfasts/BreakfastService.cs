@@ -32,9 +32,12 @@ public class BreakfastService: IBreakfastService{
         return new UpsertedBreakfast(IsNewlyCreated);
     }
     public ErrorOr<Deleted> DeleteBreakfast(Guid id){
-        _breakfasts.Remove(id);
+        if (_breakfasts.ContainsKey(id)){
+            _breakfasts.Remove(id);
+            return Result.Deleted;
+        }
 
-        return Result.Deleted;
+        return Errors.Breakfast.NotFound;
     }
 
 }
