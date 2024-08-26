@@ -10,5 +10,10 @@ public static class Errors
             code: "Breakfast.NotFound",
             description: "Breakfast not found"
         );
+    
+        public static Error InvalidName => Error.Validation(
+            code: "Breakfast.InvalidName",
+            description: "Breakfast name must be {Models.Breakfast.MinNameLength}-{Models.Breakfast.MaxNameLength} characters long."
+        );
     }
 }

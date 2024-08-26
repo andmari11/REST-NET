@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BuberBreakfast.Contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3fe5116b0ab6d1bb204ffef361e7a0818f1a45b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d7dc46284b8ffd26e02b621f6038737f8c3ebe5")]
 [assembly: System.Reflection.AssemblyProductAttribute("BuberBreakfast.Contracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BuberBreakfast.Contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -20,16 +20,18 @@ public class BreakfastsController : ApiController{
     public IActionResult CreateBreakfast(CreateBreakfastRequest request){
 
 
-        var breakfast = new Breakfast(
-            Guid.NewGuid(),
+        var requestToCreateBreakfast = Breakfast.Create(
             request.Name,
             request.Description,
             request.StartDateTime,
             request.EndDateTime,
-            DateTime.UtcNow,
             request.Savory,
             request.Sweet
         );
+        if(requestToCreateBreakfast.IsError){
+            return Problem(requestToCreateBreakfast.Errors);
+        }
+        var breakfast=requestToCreateBreakfast.Value;
 
         ErrorOr<Created> createBreakfastResult=_breakfastService.CreateBreakfast(breakfast);
 
@@ -88,16 +90,19 @@ public class BreakfastsController : ApiController{
     [HttpPut("{id:guid}")]
     public IActionResult UpsertBreakfast(Guid id, CreateBreakfastRequest request){
 
-        var breakfast = new Breakfast(
-            id,
+        var requestToCreateBreakfast = Breakfast.Create(
             request.Name,
             request.Description,
             request.StartDateTime,
             request.EndDateTime,
-            DateTime.UtcNow,
             request.Savory,
-            request.Sweet
+            request.Sweet,
+            id
         );
+        if(requestToCreateBreakfast.IsError){
+            return Problem(requestToCreateBreakfast.Errors);
+        }
+        var breakfast=requestToCreateBreakfast.Value;
         ErrorOr <UpsertedBreakfast> upsertedResult=_breakfastService.UpsertBreakfast(breakfast); 
         //return 201 if created TODO
         return upsertedResult.Match(
