@@ -1,0 +1,12 @@
+/home/andres/REST.NET/UserTasks/UserTasks.Contracts/bin/Debug/net8.0/UserTasks.Contracts.deps.json
+/home/andres/REST.NET/UserTasks/UserTasks.Contracts/bin/Debug/net8.0/UserTasks.Contracts.dll
+/home/andres/REST.NET/UserTasks/UserTasks.Contracts/bin/Debug/net8.0/UserTasks.Contracts.pdb
+/home/andres/REST.NET/UserTasks/UserTasks.Contracts/obj/Debug/net8.0/UserTasks.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/andres/REST.NET/UserTasks/UserTasks.Contracts/obj/Debug/net8.0/UserTasks.Contracts.AssemblyInfoInputs.cache
+/home/andres/REST.NET/UserTasks/UserTasks.Contracts/obj/Debug/net8.0/UserTasks.Contracts.AssemblyInfo.cs
+/home/andres/REST.NET/UserTasks/UserTasks.Contracts/obj/Debug/net8.0/UserTasks.Contracts.csproj.CoreCompileInputs.cache
+/home/andres/REST.NET/UserTasks/UserTasks.Contracts/obj/Debug/net8.0/UserTasks.Contracts.sourcelink.json
+/home/andres/REST.NET/UserTasks/UserTasks.Contracts/obj/Debug/net8.0/UserTasks.Contracts.dll
+/home/andres/REST.NET/UserTasks/UserTasks.Contracts/obj/Debug/net8.0/refint/UserTasks.Contracts.dll
+/home/andres/REST.NET/UserTasks/UserTasks.Contracts/obj/Debug/net8.0/UserTasks.Contracts.pdb
+/home/andres/REST.NET/UserTasks/UserTasks.Contracts/obj/Debug/net8.0/ref/UserTasks.Contracts.dll
