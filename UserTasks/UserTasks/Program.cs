@@ -1,5 +1,7 @@
 //using UserTasks.Services.Users;
 
+using UserTasks.Services.Tasks;
+
 var builder = WebApplication.CreateBuilder(args);
 {
 
@@ -9,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
     //AddScoped: se registra con un tiempo de vida para la solicitud
     //Addtransient: nueva instancia cada solicitud
     //AddSingleton: una sola instancia
-    //builder.Services.AddScoped<IBreakfastService, BreakfastService>();
+    builder.Services.AddScoped<IUserService, UserService>();
 }
 
 

@@ -1,0 +1,11 @@
+
+
+POST http://localhost:5019/users
+Content-Type: application/json
+
+{
+    "nombre": "user",
+    "email": "user@gmail.com"
+}
+
+

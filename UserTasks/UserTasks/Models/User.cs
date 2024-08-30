@@ -1,4 +1,5 @@
 using ErrorOr;
+using Contracts.User;
 
 namespace UserTasks.Models;
 public class User{
@@ -23,5 +24,23 @@ public class User{
             return errors;
 
         return new User (id ?? Guid.NewGuid(),nombre, email, fechaRegistro);        
+    }
+
+    public static ErrorOr<User> From(CreateUserRequest request){
+
+        return Create(
+            request.Nombre, 
+            request.Email,
+            DateTime.Now
+        );
+    }
+        public static ErrorOr<User> From(Guid id,CreateUserRequest request){
+
+        return Create(
+            request.Nombre, 
+            request.Email,
+            DateTime.Now,
+            id
+        );
     }
 }

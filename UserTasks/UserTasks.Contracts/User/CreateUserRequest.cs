@@ -1,6 +1,6 @@
 namespace Contracts.User;
 
-public record CretateUserRequest(
+public record CreateUserRequest(
     string Nombre,
     string Email
 );
