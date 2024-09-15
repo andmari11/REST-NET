@@ -16,7 +16,7 @@ public static class Errors
         );
         public static Error InvalidName => Error.Validation(
             code: "User.InvalidName",
-            description: "User name must be {Models.User.MinNameLength}-{Models.User.MaxNameLength} characters long."
+            description: $"User name must be {Models.User.MinNameLength}-{Models.User.MaxNameLength} characters long."
         );
     }
 

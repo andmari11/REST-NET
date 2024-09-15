@@ -36,6 +36,9 @@ public class UserService : IUserService
 
     ErrorOr<UpsertUserResult> IUserService.UpsertUser(User user)
     {
-        throw new NotImplementedException();
+        var newCreated=!_users.ContainsKey(user.Id);
+        _users[user.Id]=user;
+
+        return new UpsertUserResult(newCreated);
     }
 }

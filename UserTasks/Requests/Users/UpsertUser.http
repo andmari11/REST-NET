@@ -1,0 +1,9 @@
+@id=7a5de0c7-b585-41A3-a2d3-c76c69d3e511
+
+PUT http://localhost:5019/users/{{id}}
+Content-Type: application/json
+
+{
+    "nombre": "a",
+    "email": "user@gmail.com"
+}

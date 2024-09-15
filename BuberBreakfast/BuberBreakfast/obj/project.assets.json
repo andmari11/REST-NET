@@ -58,19 +58,19 @@
     ]
   },
   "packageFolders": {
-    "/home/andres/.nuget/packages/": {}
+    "C:\\Users\\andre\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/andres/REST.NET/BuberBreakfast/BuberBreakfast/BuberBreakfast.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Desktop\\REST-NET\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
       "projectName": "BuberBreakfast",
-      "projectPath": "/home/andres/REST.NET/BuberBreakfast/BuberBreakfast/BuberBreakfast.csproj",
-      "packagesPath": "/home/andres/.nuget/packages/",
-      "outputPath": "/home/andres/REST.NET/BuberBreakfast/BuberBreakfast/obj/",
+      "projectPath": "C:\\Users\\andre\\Desktop\\REST-NET\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andre\\Desktop\\REST-NET\\BuberBreakfast\\BuberBreakfast\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/andres/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -82,8 +82,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/andres/REST.NET/BuberBreakfast/BuberBreakfast.Contracts/BuberBreakfast.Contracts.csproj": {
-              "projectPath": "/home/andres/REST.NET/BuberBreakfast/BuberBreakfast.Contracts/BuberBreakfast.Contracts.csproj"
+            "C:\\Users\\andre\\Desktop\\REST-NET\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj": {
+              "projectPath": "C:\\Users\\andre\\Desktop\\REST-NET\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj"
             }
           }
         }
@@ -127,7 +127,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
